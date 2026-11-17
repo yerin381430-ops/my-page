@@ -202,11 +202,38 @@ html.st-dark img,html.st-dark video,html.st-dark iframe,html.st-dark canvas{filt
   <div class="st-sec st-embed" data-kind="youtube">
     
   </div>
-  <div class="st-sec st-dday" data-st="dday" data-date="2028-01-01">
+  <div class="st-sec st-dday" data-st="dday" data-date="2026-12-17">
     <p class="st-dlabel">성인이 되기 까지</p>
     <p class="st-dnum">D-30</p>
   </div>
+  <div class="st-sec st-tabs" data-st="tabs">
+    <div class="st-tab-bar" role="tablist">
+      <button class="st-tab" type="button">첫 번째</button>
+      <button class="st-tab" type="button">두 번째</button>
+      <button class="st-tab" type="button">세 번째</button>
+    </div>
+    <div class="st-tab-panel">
+      <p class="st-p">나는 장래희망을 위해 공부를 열심히하고 있다</p>
+    </div>
+    <div class="st-tab-panel">
+      <p class="st-p">나는 동사형 꿈을 이루기 위해 항상 긍정적으로 생각한다</p>
+    </div>
+    <div class="st-tab-panel">
+      <p class="st-p">나는 성인이 되면 더 열심히 살 것이다</p>
+    </div>
+  </div>
+  <div class="st-sec st-quiz" data-st="quiz" data-ok-msg="정답이에요! 🎉" data-no-msg="아쉬워요. 다시 골라 봐요.">
+    <p class="st-q">나의 어릴적 되고 싶었던 것은 무엇일까요?</p>
+    <div class="st-opts">
+      <button class="st-opt" type="button" data-ok="">의사</button>
+      <button class="st-opt" type="button">선생님</button>
+      <button class="st-opt" type="button">요리사</button>
+    </div>
+    <p class="st-qr" aria-live="polite"></p>
+  </div>
+  <button class="st-btn" type="button" data-st="dark">🌙 다크 모드</button>
 </main>
+
 
 <script data-studio="js">
 (function () {
